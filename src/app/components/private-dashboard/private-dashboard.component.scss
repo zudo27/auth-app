@@ -1,0 +1,23 @@
+$green: #17ad49;
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+.container {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.dashboard i {
+    padding: 20px;
+    display: inline-block;
+    border: 3px solid $green;
+    border-radius: 50px;
+    background-color: white;
+    color: $green;
+    font-size: 50px;
+}
+
+.dashboard i.fa-users {
+    padding: 20px 18px;
+}
